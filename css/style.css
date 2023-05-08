@@ -179,7 +179,7 @@ footer .pr {
 ---------------------------------------------------------------------------*/
 /*テーブル１行目に入った見出し部分（※caption）*/
 .ta1 caption {
-	border: 1px solid #999;	/*テーブルの枠線の幅、線種、色*/
+	border: 1px solid #00558c;	/*テーブルの枠線の幅、線種、色*/
 	border-bottom: none;	/*下線だけ消す*/
 	text-align: left;		/*文字を左寄せ*/
 	background: #eee;		/*背景色*/
@@ -200,7 +200,7 @@ footer .pr {
 }
 .ta1, .ta1 td, .ta1 th {
 	word-break: break-all;
-	border: 1px solid #999;	/*テーブルの枠線の幅、線種、色*/
+	border: 1px solid #00558c;	/*テーブルの枠線の幅、線種、色*/
 	padding: 10px;			/*テーブル内の余白*/
 }
 /*テーブルの左側ボックス*/
