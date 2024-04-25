@@ -271,3 +271,21 @@ body {
 .ws,.wl {width: 94%;}
 
 }
+
+/* パソコンで見た時はclass名pc-onlyだけ表示 */
+.pc-only{
+    display: block;
+}
+.sp-only{
+    display: none;
+}
+
+/* スマホで見た時はclass名sp-onlyだけ表示 */
+@media screen and (max-width: 768px){
+    .pc-only{
+        display: none;
+    }
+    .sp-only{
+        display: block;
+    } 
+}  
