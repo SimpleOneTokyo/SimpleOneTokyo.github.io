@@ -270,6 +270,31 @@ footer .pr {
 
 }
 
+
+.menubar {
+	background-color: #000;
+	overflow-x: auto;
+}
+.menubar ul {
+	display: flex;
+	width: max-content;
+	margin: 0 auto;
+}
+.menubar ul li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 50px;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+.menubar ul li a:hover {
+	background-color: #cc0000;
+}
+
 /* パソコンで見た時はclass名pc-onlyだけ表示 */
 .pc-only{
     display: block;
