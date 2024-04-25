@@ -271,16 +271,16 @@ footer .pr {
 }
 
 
-.menubar {
+.nav {
 	background-color: #000;
 	overflow-x: auto;
 }
-.menubar ul {
+.nav ul {
 	display: flex;
 	width: max-content;
 	margin: 0 auto;
 }
-.menubar ul li a {
+.nav ul li a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -291,7 +291,7 @@ footer .pr {
 	color: #fff;
 	text-decoration: none;
 }
-.menubar ul li a:hover {
+.nav ul li a:hover {
 	background-color: #cc0000;
 }
 
